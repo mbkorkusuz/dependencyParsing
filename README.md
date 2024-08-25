@@ -46,13 +46,13 @@ python3 displacy.py
 Here are two examples dependence detection of the trained model.
 <div class="header">
   <h1>
-    Correctly Detected
+    Correctly Detected (Easy example)
   </h1>
 </div>
 <img src="/output_sample/first-correct.svg" alt="Easy" title="Easy" width=50% height=50%>
 <div class="header">
   <h1>
-    Poorly Detected
+    Poorly Detected (Hard example)
   </h1>
 </div>
 <img src="/output_sample/first-poor.svg" alt = "Hard" title="Hard" width=50% height=50%>
