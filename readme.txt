@@ -1,6 +1,0 @@
-python3 -m spacy init fill-config base_config.cfg config.cfg
-python3 -m spacy convert tr_imst-ud-train.conllu . --converter conllu --file-type spacy -m --lang tr
-python3 -m spacy convert tr_imst-ud-dev.conllu . --converter conllu --file-type spacy -m --lang tr
-python3 -m spacy convert tr_imst-ud-test.conllu . --converter conllu --file-type spacy -m --lang tr
-python3 -m spacy train config.cfg --output . --paths.train ./tr_imst-ud-train.spacy --paths.dev ./tr_imst-ud-dev.spacy
-python3 -m spacy benchmark accuracy ./model-last tr_imst-ud-test.spacy -G -dp .
