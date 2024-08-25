@@ -43,7 +43,7 @@ python3 displacy.py
 ````
 
 ## **Example Output**
-Here are two examples dependence detection of the trained model.
+Here are two examples of dependence detection of the trained model.
 <div class="header">
   <h1>
     Correctly Detected (Easy example)
